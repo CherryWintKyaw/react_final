@@ -1,0 +1,41 @@
+.login-bg {
+    background: url('b.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #5c84c5;
+  }
+  
+  .login-input {
+    border-radius: 4px;
+    height: 40px;
+    background-color: rgba(91, 118, 172, 0.2);
+    color: #1548a1;
+  }
+  
+  .form-btn {
+    width: 90%;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
